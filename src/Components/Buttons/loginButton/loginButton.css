@@ -3,22 +3,42 @@
   position:relative;
   margin:auto;
   width: 260px;
-  height: 40px;
+  height: 50px;
   margin-top:2rem;
 }
-
 .button__margin--top {
   margin-top: 20rem!important;
 }
 
+/* Google */
 .buttonGoogle--color {
-  background-color: #D54231;
+  background-color: #D54231!important;
 } 
-
-.buttonFacebook--color {
-  background-color: #324F8B;
+.buttonGoogle--color:hover {
+  background-color: rgb(216, 41, 21)!important;
+}
+.buttonGoogle--color:active {
+  background-color: rgb(216, 41, 21);
 }
 
+/* Facebook */
+.buttonFacebook--color {
+  background-color: #324F8B!important;
+}
+.buttonFacebook--color:hover {
+  background-color: rgb(15, 56, 138)!important;
+}
+.buttonFacebook--color:active {
+  background-color: rgb(15, 56, 138);
+}
+
+/* Email */
 .buttonEmail--color {
-  background-color:#4875F5;
+  background-color:#4875F5!important;
+}
+.buttonEmail--color:hover {
+  background-color:rgb(28, 86, 245)!important;
+}
+.buttonEmail--color:active {
+  background-color:rgb(28, 86, 245);
 }

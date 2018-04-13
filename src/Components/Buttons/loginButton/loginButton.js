@@ -3,20 +3,13 @@ import {Button} from 'react-materialize';
 import './loginButton.css';
 
 const loginButton = (props) => {
-  
+
   let buttonColor = '';
-  props.name == 'Google' ? buttonColor = 'buttonGoogle--color' : '';
-  props.name == 'Facebook' ? buttonColor = 'buttonFacebook--color' : '';
-  props.name == 'Email' ? buttonColor = 'buttonEmail--color' : '';
+  props.name === 'Google' ? buttonColor = 'buttonGoogle--color button button__margin--top' : '';
+  props.name === 'Facebook' ? buttonColor = 'buttonFacebook--color button' : '';
+  props.name == 'Email' ? buttonColor = 'buttonEmail--color button' : '';
 
-
-  console.log(props);
-return (
-  <Button waves='light' className={buttonColor}>{props.name}</Button>
-);
+  return (<Button waves='light' className={buttonColor}>{props.name}</Button>);
 };
-
-
-
 
 export default loginButton;
