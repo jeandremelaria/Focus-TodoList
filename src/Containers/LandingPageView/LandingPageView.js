@@ -12,11 +12,10 @@ const landingPageView = () => {
         <BgImage />
       </Col>
 
-      <Col s={12} m={3} className='green'>
-       {/* <LoginButton /> */}
-        <div>Google button</div>
-        <div>Facebook button</div>
-        <div>Email button</div>
+      <Col s={12} m={3}>
+        <LoginButton className="button__margin--top" name="Google"/>
+        <LoginButton className='' name="Facebook"/>
+        <LoginButton className='' name="Email"/>
       </Col>
     </Row>
       );

@@ -1,6 +1,24 @@
 .button {
-  width: 200px;
+  display:block;
+  position:relative;
+  margin:auto;
+  width: 260px;
   height: 40px;
-  /* margin: 1.5rem; */
-  margin-top: 10rem;
+  margin-top:2rem;
+}
+
+.button__margin--top {
+  margin-top: 20rem!important;
+}
+
+.buttonGoogle--color {
+  background-color: #D54231;
+} 
+
+.buttonFacebook--color {
+  background-color: #324F8B;
+}
+
+.buttonEmail--color {
+  background-color:#4875F5;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Bg.css';
 import '../../assets/img/Bg.jpg';
 
