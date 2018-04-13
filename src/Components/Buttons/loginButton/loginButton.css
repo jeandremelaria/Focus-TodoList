@@ -9,6 +9,9 @@
 .button__margin--top {
   margin-top: 20rem!important;
 }
+.button__margin--bottom {
+  margin-bottom: 5rem!important;
+}
 
 /* Google */
 .buttonGoogle--color {
@@ -41,4 +44,43 @@
 }
 .buttonEmail--color:active {
   background-color:rgb(28, 86, 245);
+}
+
+/* Small Mobile ( <= 425px ) */
+@media screen and (max-width: 425px){
+  .button__margin--top {
+    margin-top: 6rem!important;
+  }
+}
+
+/* Mobile ( <= 600px ) */
+@media screen and (max-width: 600px){
+  .button__margin--top {
+    margin-top: 6rem!important;
+  }
+
+}
+
+/* Tablet ( > 768px ) */
+@media screen and (max-width: 768px){
+  .button {
+    width: 150px!important;
+  }
+}
+
+/* Desktop ( > 992px ) */
+@media screen and (min-width: 992px){
+  .button {
+    width: 200px!important;
+  }
+}
+
+/* Large Desktop  ( > 1200px )*/
+@media screen and (max-width: 1200px){
+ 
+}
+
+/* Large Desktop  ( > 1440px )*/
+@media screen and (min-width: 1440px){
+ 
 }
