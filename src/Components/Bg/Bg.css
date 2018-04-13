@@ -1,0 +1,48 @@
+.backgroundImage {
+  background-image: url('../../assets/img/Bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 670px;
+  overflow-y:hidden;
+  margin: 0 -0.8rem -2rem -1rem;
+}
+
+/* Small Mobile ( <= 425px ) */
+@media screen and (max-width: 425px){
+  .backgroundImage {
+    height: 300px !important;
+  }
+}
+
+/* Mobile ( <= 600px ) */
+@media screen and (max-width: 600px){
+  .backgroundImage {
+    height: 400px;
+  }
+}
+
+/* Tablet ( > 600px ) */
+@media screen and (max-width: 601px){
+  .backgroundImage {
+    height: 580px;
+  }
+}
+
+/* Desktop ( > 992px ) */
+@media screen and (max-width: 992px){
+
+}
+
+/* Large Desktop  ( > 1200px )*/
+@media screen and (max-width: 1200px){
+  .backgroundImage {
+    height: 770px;
+  }
+}
+
+/* Large Desktop  ( > 1440px )*/
+@media screen and (min-width: 1440px){
+  .backgroundImage {
+    height: 955px;
+  }
+}

@@ -1,0 +1,14 @@
+.red {
+  background-color:red;
+}
+.green {
+  background-color:green;
+}
+
+.backgroundImage {
+  background-image: url('../../assets/img/Bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  margin-bottom:0px;
+}
