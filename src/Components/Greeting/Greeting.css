@@ -66,11 +66,20 @@ p {
 }
 
 /* Desktop ( > 1024px ) */
-@media screen and (width: 1024px){
+@media screen and (min-width: 1024px){
   .greetingBackground {
     left:38.5%;
     width: 380px;
     top:45%;
+  }
+}
+
+/* Desktop ( > 1366px ) */
+@media screen and (width: 1366px){
+  .greetingBackground {
+    left:46%!important;
+    width: 380px;
+    top:53%!important;
   }
 }
 
