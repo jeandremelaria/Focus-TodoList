@@ -24,14 +24,14 @@ p {
 /* Small Mobile ( <= 320px ) */
 @media screen and (max-width: 320px){
    .greetingBackground {
-    left:3%!important;
-    width: 300px!important;
+    left:3.5%!important;
+    width: 90%!important;
   } 
 }
 /* Small Mobile ( 321px - 425px ) */
 @media screen and (min-width: 321px) and (max-width: 425px){
   .greetingBackground {
-    left:5%!important;
+    left:3.5%!important;
     width: 90%!important;
   }
 }
