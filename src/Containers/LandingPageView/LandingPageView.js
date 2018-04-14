@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Icon, Row, Col} from 'react-materialize';
+import {Row, Col} from 'react-materialize';
 import './LandingPageView.css';
 
 import LoginButton from '../../Components/Buttons/loginButton/loginButton';

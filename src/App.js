@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-
-import {Button, Icon} from 'react-materialize';
 import LandingPageView from './Containers/LandingPageView/LandingPageView';
 
 class App extends Component {
