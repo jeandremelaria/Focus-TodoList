@@ -4,6 +4,7 @@ import './LandingPageView.css';
 
 import LoginButton from '../../Components/Buttons/loginButton/loginButton';
 import BgImage from '../../Components/Bg/Bg';
+import Greeting from '../../Components/Greeting/Greeting';
 
 const landingPageView = () => {
   return (
@@ -16,6 +17,7 @@ const landingPageView = () => {
         <LoginButton name="Google"/>
         <LoginButton name="Facebook"/>
         <LoginButton name="Email"/>
+        <Greeting />
       </Col>
     </Row>
       );

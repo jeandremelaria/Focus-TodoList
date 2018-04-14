@@ -2,9 +2,13 @@
   background-image: url('../../assets/img/Bg.jpg');
   background-position: center;
   background-size: cover;
-  height: 670px;
+  height: 737px;
   overflow-y:hidden;
-  margin: 0 -0.8rem -2rem -1rem;
+  margin: -5rem -0.8rem -2rem -1rem;
+}
+.color {
+  background-color:red;
+  height: 737px;
 }
 
 /* Small Mobile ( <= 425px ) */
