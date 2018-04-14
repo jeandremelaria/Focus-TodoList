@@ -6,10 +6,6 @@
   overflow-y:hidden;
   margin: -5rem -0.8rem -2rem -1rem;
 }
-.color {
-  background-color:red;
-  height: 737px;
-}
 
 /* Small Mobile ( <= 425px ) */
 @media screen and (max-width: 425px){
@@ -33,7 +29,11 @@
 }
 
 /* Desktop ( > 992px ) */
-@media screen and (max-width: 992px){}
+@media screen and (min-width: 992px){
+  .backgroundImage {
+    height: 850px!important;
+  }
+}
 
 /* Large Desktop  ( > 1200px )*/
 @media screen and (max-width: 1200px){
@@ -45,6 +45,6 @@
 /* Large Desktop  ( > 1440px )*/
 @media screen and (min-width: 1440px){
   .backgroundImage {
-    height: 955px;
+    height: 1050px!important;
   }
 }
