@@ -1,11 +1,16 @@
 import React from 'react';
 import '../Greeting/Greeting.css';
+import Parser from 'html-react-parser';
 
 const Greeting = () => {
+
+  const title = 'Welcome to <span className="brand">Fo</span><em>cus</em>';
+  const greetingSubtitle = 'Use Focus to track your to-do’s & manage projects';
+
   return (
     <div className="greetingBackground">
-        <h5>Welcome to <span className="brand">Fo</span><em>cus</em></h5>
-        <p>Use Focus to track your to-do’s &amp; manage projects</p>
+        <h5>{Parser(title)}</h5>
+        <p>{greetingSubtitle}</p>
     </div>
   );
 }
