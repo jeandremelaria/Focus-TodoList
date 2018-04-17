@@ -3,7 +3,7 @@ import '../Greeting/Greeting.css';
 import Parser from 'html-react-parser';
 
 const Greeting = () => {
-
+  //Variables
   const title = 'Welcome to <span className="brand">Fo</span><em>cus</em>';
   const greetingSubtitle = 'Use Focus to track your to-do’s & manage projects';
 
