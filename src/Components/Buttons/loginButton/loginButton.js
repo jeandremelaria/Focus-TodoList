@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from 'react-materialize';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 import './loginButton.css';
 
 const loginButton = (props) => {
@@ -26,6 +26,6 @@ const loginButton = (props) => {
 export default loginButton;
 
 // Validatig Proptypes
-loginButton.PropTypes = {
-  name: PropTypes.string
+loginButton.propTypes = {
+  name: propTypes.string
 };
