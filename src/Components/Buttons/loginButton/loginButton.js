@@ -1,31 +1,26 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Button} from 'react-materialize';
-import propTypes from 'prop-types';
 import './loginButton.css';
 
-const loginButton = (props) => {
-  
-  const name = props.name;
-  let buttonColor = '';
-
-  if(name === 'Google') {
-     buttonColor = 'buttonGoogle--color button button__margin--top';
+class LoginButton extends Component {
+  state = {
+    buttons:[
+      {name:'Google', class:'buttonGoogle--color button button__margin--top'},
+      {name:'Facebook', class:'buttonFacebook--color button'},
+      {name:'Email', class:'buttonEmail--color button button__margin--bottom'}
+    ]
   }
+  render() {
+    const button = this.state.buttons;
 
-  if(name === 'Facebook') {
-    buttonColor = 'buttonFacebook--color button';
+    return (
+    <div>
+      <Button waves='light' className={button[0].class}>{button[0].name}</Button>
+      <Button waves='light' className={button[1].class}>{button[1].name}</Button>
+      <Button waves='light' className={button[2].class}>{button[2].name}</Button>
+    </div>
+  );
   }
+}
 
-  if(name === 'Email') {
-    buttonColor = 'buttonEmail--color button button__margin--bottom';
-  }
-
-  return (<Button waves='light' className={buttonColor}>{name}</Button>);
-};
-
-export default loginButton;
-
-// Validatig Proptypes
-loginButton.propTypes = {
-  name: propTypes.string
-};
+export default LoginButton;

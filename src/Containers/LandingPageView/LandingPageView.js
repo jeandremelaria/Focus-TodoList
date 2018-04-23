@@ -14,9 +14,7 @@ const landingPageView = () => {
       </Col>
 
       <Col s={12} m={3}>
-        <LoginButton name="Google"/>
-        <LoginButton name="Facebook"/>
-        <LoginButton name="Email"/>
+        <LoginButton/>
         <Greeting />
       </Col>
     </Row>
