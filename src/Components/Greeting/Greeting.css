@@ -92,9 +92,9 @@ p {
 
 @media screen and (width: 1366px){
   .greetingBackground {
-    left:46%!important;
+    left:48%!important;
     width: 380px;
-    top:53%!important;
+    top:45%!important;
   }
 }
 

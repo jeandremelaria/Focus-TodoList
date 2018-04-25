@@ -5,6 +5,7 @@ import './LandingPageView.css';
 import LoginButton from '../../Components/Buttons/LoginButton/LoginButton';
 import BgImage from '../../Components/Bg/Bg';
 import Greeting from '../../Components/Greeting/Greeting';
+import Logo from '../../Components/Logo/Logo';
 
 const landingPageView = () => {
   return (
@@ -14,6 +15,8 @@ const landingPageView = () => {
       </Col>
 
       <Col s={12} m={3}>
+
+        <Logo />
         <LoginButton/>
         <Greeting />
       </Col>
