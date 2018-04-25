@@ -65,21 +65,11 @@ p {
   }
 }
 
-/* Desktop ( > 1024px ) */
 @media screen and (min-width: 1024px){
   .greetingBackground {
     left:38.5%;
     width: 380px;
     top:45%;
-  }
-}
-
-/* Desktop ( > 1366px ) */
-@media screen and (width: 1366px){
-  .greetingBackground {
-    left:46%!important;
-    width: 380px;
-    top:53%!important;
   }
 }
 
@@ -92,7 +82,22 @@ p {
   }
 }
 
-/* Large Desktop  ( > 1440px )*/
+@media screen and (min-width: 1280px){
+  .greetingBackground {
+    left:44%;
+    width: 400px;
+    top:48%;
+  }
+}
+
+@media screen and (width: 1366px){
+  .greetingBackground {
+    left:46%!important;
+    width: 380px;
+    top:53%!important;
+  }
+}
+
 @media screen and (min-width: 1440px){
   .greetingBackground {
     left:47.5%;

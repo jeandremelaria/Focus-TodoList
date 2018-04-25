@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button} from 'react-materialize';
-import './loginButton.css';
+import './LoginButton.css';
 
 class LoginButton extends Component {
   state = {
@@ -12,7 +12,6 @@ class LoginButton extends Component {
   }
   render() {
     const button = this.state.buttons;
-
     return (
     <div>
       <Button waves='light' className={button[0].class}>{button[0].name}</Button>

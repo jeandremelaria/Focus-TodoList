@@ -77,5 +77,11 @@
 /* Large Desktop  ( > 1200px )*/
 @media screen and (max-width: 1200px){}
 
+@media screen and (min-width: 1280px){
+  .button__margin--top {
+    margin-top: 16rem!important;
+  }
+}
+
 /* Large Desktop  ( > 1440px )*/
 @media screen and (min-width: 1440px){}

@@ -2,7 +2,7 @@ import React from 'react';
 import {Row, Col} from 'react-materialize';
 import './LandingPageView.css';
 
-import LoginButton from '../../Components/Buttons/loginButton/loginButton';
+import LoginButton from '../../Components/Buttons/LoginButton/LoginButton';
 import BgImage from '../../Components/Bg/Bg';
 import Greeting from '../../Components/Greeting/Greeting';
 
