@@ -10,12 +10,13 @@ class LoginButton extends Component {
       {id:'email', name:'Email', class:'buttonEmail--color button button__margin--bottom'},
     ]
   }
+
   render() {
-    const button = this.state.buttons;
+    
     return (
     <div>
       {this.state.buttons.map(button => 
-        <Button waves='light' className={button.class}>{button.name}</Button>
+        <Button waves='light' key={button.id} className={button.class}>{button.name}</Button>
       )}
     </div>
   );
